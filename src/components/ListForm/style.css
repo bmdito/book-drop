@@ -1,0 +1,40 @@
+
+.form-wrap{
+    display:table;
+    width:100%;
+}
+
+.form {
+    background-color: #fafafa;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    /* display:inline-block; */
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    width:300px;
+}
+
+.list-header {
+    padding:12px;
+    text-align:center;
+}
+
+.form input {
+    
+    padding:10px;
+    margin: 10px 10px;
+    margin-left: 50px;
+}
+
+.sub-butt {
+    border:2px solid black;
+    color:black;
+    font-size: 20px;
+    margin: 12px 12px;
+    margin-left: 103px;
+    
+}
+
+.sub-butt:hover {
+    cursor:pointer;
+}
