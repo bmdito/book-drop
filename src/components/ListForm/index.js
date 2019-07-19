@@ -63,6 +63,14 @@ class ListForm extends Component{
                             onChange = {this.handleInputChange}
                         />
 
+<input
+                            type="number"
+                            name="price"
+                            value={this.state.price}
+                            placeholder="List price"
+                            onChange = {this.handleInputChange}
+                        />
+
                         <button className="sub-butt" onClick={this.handleSubmit}>Submit</button>
                     </form>
                     </div>
